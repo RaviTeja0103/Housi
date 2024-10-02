@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f949b;
+    text-align: center;
+}
+
+h1{
+    margin: 0%;
+    font-size: 64px;
+}
+
+.gamebody {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Left box takes 1/3, right grid 2/3 */
+    gap: 20px; /* Space between columns */
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+/* Left box styling */
+.left-box {
+    margin: 10%;
+    background-color: lightgray;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin: 30%;
+    font-size: 100px;
+}
+
+h3{
+    margin: 5px;
+    font-size: 34px;
+
+}
+
+
+.startbutton{
+    margin: 5%;
+    padding: 10%;
+}
+
+/* Right grid styling */
+.right-grid {
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* Creates 6 columns */
+    grid-template-rows: repeat(10, 1fr); /* Creates 5 rows */
+    gap: 5px;
+    border: 2px solid black;
+}
+
+.grid-item {
+    border: 1px solid black;
+    background-color: green;
+}
